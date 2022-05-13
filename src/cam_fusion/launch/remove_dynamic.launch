@@ -1,0 +1,5 @@
+<launch>
+<node pkg="rviz"  type="rviz"  name="rviz"  args="-d $(find cam_fusion)/rviz/remove_node.rviz"></node>
+<node pkg="cam_fusion" type="remove_node" name="remove_node" output="screen"></node>
+
+</launch>
