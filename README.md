@@ -1,5 +1,5 @@
 # deremove
-
+detect & remove
 本项目基于ROS，目的在于基于视觉语义滤除激光点云中的动态点。
 使用方法：放入ros工作空间编译。
 
